@@ -32,6 +32,7 @@ Quan el client és informat del senzill que és accedir a l’equip, demana si n
   https://waytoit.wordpress.com/2013/06/06/recuperando-password-en-ubuntu/
 
 ## Fichero de solución
-[Acceder a la solucion](solucio.md/)
+- Aqui se adjunta el fichero con la [solucion](solucio.md/)
+- [Volver al menu principal](/README.md)
 ---
 
