@@ -31,7 +31,7 @@ Quan el client és informat del senzill que és accedir a l’equip, demana si n
 - Article: *Recuperant Password en Linux*  
   https://waytoit.wordpress.com/2013/06/06/recuperando-password-en-ubuntu/
 
-## Fichero de solución
+## Fichero de solución y menu principal
 - Aqui se adjunta el fichero con la [solucion](/solucion.md)
 - [Volver al menu principal](/README.md)
 ---
