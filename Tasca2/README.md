@@ -38,4 +38,8 @@ Davant les constants incidències amb el subministrament elèctric a la zona, la
 Redacteu un **informe tècnic** que inclogui:
 - Càlculs realitzats  
 - Models analitzats  
-- Justificació de la selecció final  
+- Justificació de la selecció final
+- 
+## Fichero de solución y menu principal
+- Aqui se adjunta el fichero con la [solucion](/solucio.md)
+- [Volver al menu principal](/README.md)
