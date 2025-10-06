@@ -1,4 +1,7 @@
 # Projecte2
+## Ficheros de las Tareas
+- [Acceder a la carpeta Tasca 2](tasca2/)
+- [Acceder a la carpeta Tasca 3](tasca3/)
 
 ## Resum
 Aquest repositori conté les tasques **2** i **3** del projecte. Cada tasca té la seva carpeta amb:
