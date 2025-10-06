@@ -42,5 +42,5 @@ Redacteu un **informe tècnic** que inclogui:
 
   
 ## Fichero de solución y menu principal
-- Aqui se adjunta el fichero con la [solucion](/solucio.md)
+- Aqui se adjunta el fichero con la [solucion](solucio.md)
 - [Volver al menu principal](/README.md)
