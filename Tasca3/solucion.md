@@ -5,9 +5,7 @@
    `recovubuntu01`
 
 2. En el menú de recuperación, elegimos la opción **root**  
-   *(en versiones anteriores aparecía con el nombre de `netroot`)*.  
-   *Ejemplo:*  
-   `recovubuntu02`
+![Root](2foto.png)
 
 3. Ya tenemos abierto un terminal en **modo root**, pero si intentamos cambiar la contraseña de un usuario con:
 
