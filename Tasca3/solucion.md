@@ -19,32 +19,24 @@ Investigáis el procedimiento para que el acceso al GRUB quede protegido por con
    `recovubuntu01`
 
 2. En el menú de recuperación, elegimos la opción **root**  
-![Root](2foto.png)
+![Root](img/2foto.png)
 
-3. Ya tenemos abierto un terminal en **modo root**, pero si intentamos cambiar la contraseña de un usuario con:
+3. Para identificar el root haremos el comando: "mount -rw -o remount /"
+![Root](img/3foto.png)
 
-   ```bash
-   passwd nombre_usuario
+4.Seguidaemnte como hemos verificado que somos root hacemos el comando "passwd miquel"
+![contraseña](img/4foto.png)
 
-   
 ## Configurar autenticación en GRUB con contraseña cifrada
 
 ### 1. Generar el hash con PBKDF2
 
-Ejecutamos el siguiente comando para generar un hash a partir de una contraseña, utilizando la función criptográfica PBKDF2:
+Ejecutamos el siguiente comando para generar un hash a partir de una contraseña, utilizando la función criptográfica PBKDF2: "grub-mkpasswd-pbkdf2"
 
-
-```bash
-grub-mkpasswd-pbkdf2
+![encriptación](img/5foto.png)
 
 ### Guardar el hash generado en un archivo
-
 El problema es que necesitaremos añadir este hash a un archivo, y escribirlo manualmente no es una opción cómoda ni sencilla. Para facilitar este proceso, usaremos el comando `tee`, que permite redirigir la salida estándar hacia un archivo.
 
-Por tanto, escribiremos lo siguiente:
-
-```bash
-grub-mkpasswd-pbkdf2 | tee salida.txt
-
-grub-mkpasswd-pbkdf2 | tee salida.txt
+![encriptación](img/6foto.png)
 
