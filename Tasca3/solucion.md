@@ -31,12 +31,26 @@ Investigáis el procedimiento para que el acceso al GRUB quede protegido por con
 
 ### 1. Generar el hash con PBKDF2
 
-Ejecutamos el siguiente comando para generar un hash a partir de una contraseña, utilizando la función criptográfica PBKDF2: "grub-mkpasswd-pbkdf2"
+1.Ejecutamos el siguiente comando para generar un hash a partir de una contraseña, utilizando la función criptográfica PBKDF2: "grub-mkpasswd-pbkdf2"
 
 ![encriptación](img/5foto.png)
 
 ### Guardar el hash generado en un archivo
-El problema es que necesitaremos añadir este hash a un archivo, y escribirlo manualmente no es una opción cómoda ni sencilla. Para facilitar este proceso, usaremos el comando `tee`, que permite redirigir la salida estándar hacia un archivo.
+2.El problema es que necesitaremos añadir este hash a un archivo, y escribirlo manualmente no es una opción cómoda ni sencilla. Para facilitar este proceso, usaremos el comando `tee`, que permite redirigir la salida estándar hacia un archivo.
 
 ![encriptación](img/6foto.png)
+
+3.Seguidamente abriremos el documento nano donde haremos las siguientes configuraciones. Para abrir el documento se hace la siguiente comanda.
+
+![gnu](img/gnu.png)
+
+![fichero](img/8foto.png)
+
+4.En ese documento escribiremos las siguientes comandas donde cada usuario deberá de poner la información correspondiente
+![superusers](img/11foto.png)
+
+5.En la primera línea pondremos el nombre de usuario y en la segunda línea pondremos lo que antes hemos copiado, que es la autentificación
+
+6.Por ultimo pondremos el siguiente código y nuestra cuenta ya estará protegida
+![checking](img/12foto.png)
 
